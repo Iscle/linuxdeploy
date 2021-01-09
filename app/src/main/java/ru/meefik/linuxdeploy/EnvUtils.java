@@ -41,7 +41,6 @@ public class EnvUtils {
                 while ((read = in.read(buffer)) != -1) {
                     out.write(buffer, 0, read);
                 }
-                out.flush();
             }
             return true;
         } catch (IOException e) {
